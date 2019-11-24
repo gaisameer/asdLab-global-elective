@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="css/bootstrap.min.css"></script>
+  <script src="option.js"></script>
+</head>
+
+
+<body>
+    
+    
+    
+<br>
+<br>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+    
+    <a class="navbar-brand" href="#">Choose Global Elective</a>
+    <ul>
+      <li>
+      <button type="button" class="btn btn-danger pull-right">Log Out</button>
+      </li>
+      </ul>
+
+  </nav>
+<div class="container mt-sm-5">
+  <p>Select your options for global elective.</p>
+  <button type="button" class="btn border border-none w-100 shadow-sm bg-white text-left" data-toggle="collapse" data-target="#mech">Mechanical Engineering</button>
+  <div id="mech" class="collapse">
+      <br>
+
+        <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend pr-2">
+                    <div class="input-group-text">
+                      <input type="checkbox" id="ME471" onclick="check(this.id)"> 
+                    </div>
+                  </div >
+                  ME471 OPTIMIZATION TECHNIQUES
+                  <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">
+                      about the course
+                    </button>
+                </div>
+
+                <div class="input-group mb-3">
+                        <div class="input-group-prepend pr-2">
+                          <div class="input-group-text">
+                            <input type="checkbox" id="ME482" onclick="check(this.id)"> 
+                          </div>
+                        </div >
+                        ME482 ENERGY CONSERVATION AND MANAGEMENT
+                      </div>
+
+
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend pr-2">
+                              <div class="input-group-text">
+                                <input type="checkbox" id="ME484" onclick="check(this.id)"> 
+                              </div>
+                            </div >
+                            ME484 FINITE ELEMENT ANALYSIS
+                          </div>
+                        </form>
+  </div>
+<br>
+<br>
+
+
+<button type="button" class="btn border border-none w-100 shadow-sm bg-white text-left" data-toggle="collapse" data-target="#eee">Electrical Engineering</button>
+  <div id="eee" class="collapse">
+      <br>
+
+        <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend pr-2">
+                    <div class="input-group-text">
+                      <input type="checkbox" id="ME471a" onclick="check(this.id)"> 
+                    </div>
+                  </div>
+                  ME471a OPTIMIZATION TECHNIQUES
+                </div>
+
+                <div class="input-group mb-3">
+                        <div class="input-group-prepend pr-2">
+                          <div class="input-group-text">
+                            <input type="checkbox" id="ME471b" onclick="check(this.id)"> 
+                          </div>
+                        </div >
+                        ME482a ENERGY CONSERVATION AND MANAGEMENT
+                      </div>
+
+
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend pr-2">
+                              <div class="input-group-text">
+                                <input type="checkbox" id="ME484a" onclick="check(this.id)"> 
+                            </div>
+                        </div>
+                        ME484a FINITE ELEMENT ANALYSIS
+                    </div>
+        </form>
+  </div>
+
+<br><br>
+<button type="button" class="btn border border-none w-100 shadow-sm bg-white text-left" data-toggle="collapse" data-target="#eee">Electronics Engineering</button>
+  <div id="eee" class="collapse">
+      <br>
+
+        <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend pr-2">
+                    <div class="input-group-text">
+                      <input type="checkbox"> 
+                    </div>
+                  </div >
+                  option 1
+                </div>
+
+                <div class="input-group mb-3">
+                        <div class="input-group-prepend pr-2">
+                          <div class="input-group-text">
+                            <input type="checkbox"> 
+                          </div>
+                        </div >
+                        option 2
+                      </div>
+
+
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend pr-2">
+                              <div class="input-group-text">
+                                <input type="checkbox"> 
+                            </div>
+                        </div>
+                            option 3
+                    </div>
+        </form>
+  </div>
+
+
+
+
+
+  <br><br>
+<button type="button" class="btn border border-none w-100 shadow-sm bg-white text-left" data-toggle="collapse" data-target="#eee">Civil Engineering</button>
+  <div id="eee" class="collapse">
+      <br>
+
+        <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend pr-2">
+                    <div class="input-group-text">
+                      <input type="checkbox"> 
+                    </div>
+                  </div >
+                  option 1
+                </div>
+
+                <div class="input-group mb-3">
+                        <div class="input-group-prepend pr-2">
+                          <div class="input-group-text">
+                            <input type="checkbox"> 
+                          </div>
+                        </div >
+                        option 2
+                      </div>
+
+
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend pr-2">
+                              <div class="input-group-text">
+                                <input type="checkbox"> 
+                            </div>
+                        </div>
+                            option 3
+                    </div>
+        </form>
+  </div>
+
+  <br><br>
+<button type="button" class="btn border border-none w-100 shadow-sm bg-white text-left" data-toggle="collapse" data-target="#eee">Mathematics Engineering</button>
+  <div id="eee" class="collapse">
+      <br>
+
+        <form>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend pr-2">
+                    <div class="input-group-text">
+                      <input type="checkbox"> 
+                    </div>
+                  </div >
+                  option 1
+                </div>
+
+                <div class="input-group mb-3">
+                        <div class="input-group-prepend pr-2">
+                          <div class="input-group-text">
+                            <input type="checkbox"> 
+                          </div>
+                        </div >
+                        option 2
+                      </div>
+
+
+                      <div class="input-group mb-3">
+                            <div class="input-group-prepend pr-2">
+                              <div class="input-group-text">
+                                <input type="checkbox"> 
+                            </div>
+                        </div>
+                            option 3
+                    </div>
+        </form>
+  </div>
+
+
+
+
+
+
+
+</div>
+
+
+<!-- all modals are defined here-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">ME471 OPTIMIZATION TECHNIQUES</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Faculty: Prof.Ajeesh Ramanujan
+          <br>
+          <br><br>
+          <button type="button" class="btn btn-primary btn-block">View Sylabus</button> 
+        </div>
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+
+<!--to show the selected courser , verum prahasanam-->
+
+<br>
+<br>
+<!--div class="container shadow-sm bg-dark fixed-bottom "-->
+    
+        <div class="col-sm-12 align-items-end fixed-bottom" style="background-color:rgba(85, 85, 228, 0.925);color: #fff;">
+          <br>
+          <h5 class="text-center">Selected Courses</h5>
+          <p id="para" class="text-center"> check boxes corresponding to prefered courses </p>
+          <br/>
+          <br/>
+        </div>  
+
+          
+          
+        <!--div
+        <div class="container fixed-bottom">
+        <div class="card bg-primary text-white" style="width:400px;float: right; margin-right: 0px; margin-bottom: 20dp;">
+            <div class="card-body text-center">
+                <h5 class="text-center">Selected Courses</h5>
+
+              <p id="para" class="text-center"> check boxes corresponding to prefered courses </p>
+
+            </div>
+          </div>
+          </div>
+        -->
+      <!--div-->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
