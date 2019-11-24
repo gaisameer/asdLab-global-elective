@@ -3,6 +3,9 @@ var courses=[" "," "," "," "," "]
 const max=4;
 var ind = x+1;
 var i=0;
+var cb = document.getElementById("clrBtn");
+var sb = document.getElementById("SBtn");
+
 
 function print()
     {
@@ -32,6 +35,7 @@ function check(id)
         {
             alert("cannot choose more than " + (max+1) +" courses")
             x = max;
+            checkBox.checked = false;
         }
         else{
             courses[x]=id;
@@ -53,3 +57,5 @@ function check(id)
 
     
 }
+
+

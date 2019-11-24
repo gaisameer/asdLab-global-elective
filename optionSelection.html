@@ -8,6 +8,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="css/bootstrap.min.css"></script>
   <script src="option.js"></script>
+
+  <style>
+    .footer {
+       position: fixed;
+       right: 0;
+       bottom: 0;
+       width: 30%;
+       background-color: rgb(37, 145, 207);
+       color: white;
+       text-align: center;
+       margin: 15px;
+       padding: 6px;
+    }
+    </style>
 </head>
 
 
@@ -37,7 +51,7 @@
                 <div class="input-group mb-3">
                   <div class="input-group-prepend pr-2">
                     <div class="input-group-text">
-                      <input type="checkbox" id="ME471" onclick="check(this.id)"> 
+                      <input type="checkbox" id="ME471" class="test" onclick="check(this.id)"> 
                     </div>
                   </div >
                   ME471 OPTIMIZATION TECHNIQUES
@@ -49,7 +63,7 @@
                 <div class="input-group mb-3">
                         <div class="input-group-prepend pr-2">
                           <div class="input-group-text">
-                            <input type="checkbox" id="ME482" onclick="check(this.id)"> 
+                            <input type="checkbox" id="ME482" class="tast" onclick="check(this.id)"> 
                           </div>
                         </div >
                         ME482 ENERGY CONSERVATION AND MANAGEMENT
@@ -255,22 +269,33 @@
 </div>
 
 
+<div class="footer">
+  <h5 class="text-center">Selected Courses</h5>
+  <p id="para" class="text-center"> check boxes corresponding to prefered courses. </p>
+  <div class="row justify-content-center">
+    <button type="button" class="btn btn-warning" id="clrBtn" onclick="clear()" >Clear</button>
+    <button type="button" class="btn btn-default" disabled="disabled"></button>
+    <button type="button" class="btn btn-success" id="SBtn">Submit</button>
+  </div>
+  
+</div>
 
-
+<!---
+<br/><br/>
+<div class="w-25 h-30 p-3 float-right mr-3 mb-3 " style="background-color: rgb(243, 82, 82);">width</div> -->  
 
 <!--to show the selected courser , verum prahasanam-->
 
-<br>
-<br>
+
 <!--div class="container shadow-sm bg-dark fixed-bottom "-->
-    
+  <!--  original
         <div class="col-sm-12 align-items-end fixed-bottom" style="background-color:rgba(85, 85, 228, 0.925);color: #fff;">
           <br>
           <h5 class="text-center">Selected Courses</h5>
-          <p id="para" class="text-center"> check boxes corresponding to prefered courses </p>
+          <p id="para" class="text-center"> check boxes corresponding to prefered courses. </p>
           <br/>
           <br/>
-        </div>  
+        </div>  -->
 
           
           
@@ -287,14 +312,6 @@
           </div>
         -->
       <!--div-->
-
-
-
-
-
-
-
-
 
 </body>
 </html>
