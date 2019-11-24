@@ -3,8 +3,9 @@ var courses=[" "," "," "," "," "]
 const max=4;
 var ind = x+1;
 var i=0;
-var cb = document.getElementById("clrBtn");
-var sb = document.getElementById("SBtn");
+var sub = document.getElementById("sub");
+
+
 
 
 function print()
@@ -58,4 +59,15 @@ function check(id)
     
 }
 
+function submit()
+{
+   if(x == -1)
+    alert("select options")
+   else
+    alert("options registered")
+}
 
+function clear()
+{   
+    alert("options registered")
+}
