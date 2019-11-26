@@ -32,16 +32,16 @@ function check(id)
     if (checkBox.checked == true)
     {
         x = x + 1;
-        if(x > max)
-        {
-            alert("cannot choose more than " + (max+1) +" courses")
-            x = max;
-            checkBox.checked = false;
-        }
-        else{
+       // if(x > max)
+       // {
+           // alert("cannot choose more than " + (max+1) +" courses")
+          //  x = max;
+           // checkBox.checked = false;
+       // }
+      //  else{
             courses[x]=id;
             print();
-            }        
+      //      }        
     }                                       //if checkbox is not checked
     else {
         x=x-1;
